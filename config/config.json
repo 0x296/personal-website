@@ -1,0 +1,28 @@
+{
+  "url": "http://localhost",
+  "api_version": "/v1",
+  "mongodb": "mongodb://localhost:27017/muz",
+  "port": 8080,
+  "security": {
+    "keyPath": "/etc/letsencrypt/live/0x296.com/privkey.pem",
+    "certPath": "/etc/letsencrypt/live/0x296.com/cert.pem",
+    "caPath": "/etc/letsencrypt/live/0x296.com/chain.pem"
+  },
+  "environments" : {
+    "test": {
+      "mongodb": "mongodb://localhost:27017/testing",
+      "port": 8081
+    },
+    "local":{
+      "mongodb": "mongodb://localhost:27017/muz",
+      "port": 8080,
+      "security": {
+        "keyPath": "~/self-signed-cert/key.pem",
+        "certPath": "~/self-signed-cert/cert.pem"
+      }      
+    },
+    "ci": {
+      "mongodb": "mongodb://127.0.0.1:27017/testing"
+    }
+  }
+}
