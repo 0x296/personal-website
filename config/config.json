@@ -4,9 +4,9 @@
   "mongodb": "mongodb://localhost:27017/muz",
   "port": 8080,
   "security": {
-    "keyPath": "/etc/letsencrypt/live/0x296.com/privkey.pem",
-    "certPath": "/etc/letsencrypt/live/0x296.com/cert.pem",
-    "caPath": "/etc/letsencrypt/live/0x296.com/chain.pem"
+    "keyPath": "/etc/letsencrypt/live/zinanmu.me/privkey.pem",
+    "certPath": "/etc/letsencrypt/live/zinanmu.me/cert.pem",
+    "caPath": "/etc/letsencrypt/live/zinanmu.me/chain.pem"
   },
   "environments" : {
     "test": {
