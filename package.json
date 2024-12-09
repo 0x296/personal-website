@@ -29,6 +29,7 @@
     "build": "webpack",
     "start": "nodemon ./src/server/index.cjs",
     "start-secure": "cross-env NODE_ENV=production PORT=443 nodemon ./src/server/index.cjs",
+    "start-production": "cross-env NODE_ENV=production nodemon ./src/server/index.cjs",
     "start-test": "cross-env NODE_ENV=test node ./src/server/index.cjs",
     "start-ci": "cross-env NODE_ENV=ci node ./src/server/index.cjs",
     "start-local": "cross-env NODE_ENV=local node ./src/server/index.cjs",
