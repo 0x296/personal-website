@@ -27,7 +27,7 @@ const ResumeContent = styled.div`
 `;
 
 const SubSection = styled.div`
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 
   ul {
     padding-left: 20px;
@@ -117,14 +117,14 @@ export const Resume = () => (
 
             <SubSection>
               <SectionTitle>Education</SectionTitle>
-              <p>
                 <strong>Vanderbilt University</strong> - M.S. Computer Science (Aug. 2023 - May. 2025)<br />
-                GPA: 4.0/4.0
-              </p>
-              <p>
+                <ul>
+                <li>GPA: 4.0/4.0</li>
+                </ul>
                 <strong>Zhejiang University</strong> - B.E. Electronic Information Engineering (Sep. 2018 - Jun. 2022)<br />
-                Also obtained a Second Major Certificate in Computer Science and Technology
-              </p>
+                <ul>
+                  <li>Also obtained a Second Major Certificate in Computer Science and Technology</li>
+                </ul>
             </SubSection>
 
             <SubSection>
@@ -197,9 +197,8 @@ export const Resume = () => (
                 </div>
               </SkillsRow>
             </SkillsSection>
-
             <div style={{ textAlign: "center" }}>
-              <DownloadButton href="/path-to-resume.pdf" download>
+              <DownloadButton href="/my_resume/Zinan_Mu_resume.pdf" download>
                 Download Resume PDF
               </DownloadButton>
             </div>
