@@ -1,4 +1,3 @@
-// GlobalStyles.js
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
@@ -24,10 +23,21 @@ export const GlobalStyle = createGlobalStyle`
     color: #e0e0e0;
   }
 
-  h1, h2, h3 {
-    font-family: 'Jost', sans-serif; /* Use Jost for titles */
+  h1 {
+    font-family: 'Jost', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-family: 'Jost', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-family: 'Jost', sans-serif;
+    font-size: 1.35rem; /* Reduced size for distinction */
     font-weight: 700;
   }
 `;
-
-

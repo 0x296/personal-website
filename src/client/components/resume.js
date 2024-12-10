@@ -117,14 +117,16 @@ export const Resume = () => (
 
             <SubSection>
               <SectionTitle>Education</SectionTitle>
-                <strong>Vanderbilt University</strong> - M.S. Computer Science (Aug. 2023 - May. 2025)<br />
-                <ul>
+              <h3><strong>Vanderbilt University</strong> - M.S. Computer Science<br /></h3>
+              <p>Aug. 2023 - May. 2025</p>
+              <ul>
                 <li>GPA: 4.0/4.0</li>
-                </ul>
-                <strong>Zhejiang University</strong> - B.E. Electronic Information Engineering (Sep. 2018 - Jun. 2022)<br />
-                <ul>
-                  <li>Also obtained a Second Major Certificate in Computer Science and Technology</li>
-                </ul>
+              </ul>
+              <h3><strong>Zhejiang University</strong> - B.E. Electronic Information Engineering<br /></h3>
+              <p>Sep. 2018 - Jun. 2022</p>
+              <ul>
+                <li>Also obtained a Second Major Certificate in Computer Science and Technology</li>
+              </ul>
             </SubSection>
 
             <SubSection>
@@ -147,20 +149,47 @@ export const Resume = () => (
             </SubSection>
 
             <SubSection>
-              <SectionTitle>Projects</SectionTitle>
+              <h2>Projects</h2>
+
               <h3>News Sentiment Analyzer</h3>
               <p>Mar. 2024 -- Apr. 2024</p>
               <ul>
-                <li>Developed an online web application that enables users to input a keyword and analyze recent sentiment trends from multiple news sources.</li>
-                <li>Utilized Apache Kafka for efficient message brokering, and Docker and Kubernetes for containerized deployment.</li>
+                <li>
+                  Developed an online web application that enables users to input a keyword and analyze recent sentiment trends from multiple news sources.
+                </li>
+                <li>
+                  Utilized <strong>Apache Kafka</strong> for efficient message brokering, and utilized <strong>Docker</strong> and <strong>Kubernetes</strong> to facilitate containerized deployment, enhancing workload balancing and resource utilization across various nodes. Utilized <strong>MongoDB</strong> for robust and scalable message storage.
+                </li>
+                <li>
+                  Crafted a user-friendly web interface by leveraging <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong> and <strong>React</strong> framework. Developed the backend with the <strong>Python</strong> <strong>Django</strong> framework and integrated Python <strong>NLTK</strong> library to employ machine learning techniques for accurate sentiment analysis.
+                </li>
+                <li>Successfully deployed the project on Chameleon Cloud.</li>
               </ul>
 
               <h3>Online Consultation Platform</h3>
               <p>May. 2022 -- Jun. 2022</p>
               <ul>
-                <li>Developed a comprehensive platform enabling doctor-patient consultations through text, images, and videos.</li>
+                <li>
+                  Developed a comprehensive platform enabling doctor-patient consultations through text, images, and videos. The platform supports account creation and login for doctors, patients, and web administrators, along with features for storing and managing patient medical records.
+                </li>
+                <li>
+                  Implemented the frontend in <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong> using <strong>React</strong> framework, and implemented the backend in <strong>Java</strong> using <strong>Springboot</strong> framework. Utilized <strong>MySQL</strong> for managing user data.
+                </li>
+                <li>Managed version control using <strong>Git</strong>.</li>
+              </ul>
+
+              <h3>Geometry Tool</h3>
+              <p>May. 2022 -- Jun. 2022</p>
+              <ul>
+                <li>
+                  Created a tool akin to GeoGebra for dynamic geometric shape drawing and analysis on a whiteboard, including parametric equations, intersections, and trajectories.
+                </li>
+                <li>
+                  Implemented the project in <strong>C++</strong> and used <strong>OpenGL</strong> graphic library GLFW for GUI.
+                </li>
               </ul>
             </SubSection>
+
 
             <SkillsSection>
               <SectionTitle>Skills</SectionTitle>
@@ -177,7 +206,6 @@ export const Resume = () => (
                     <li>CSS</li>
                     <li>JavaScript</li>
                     <li>Matlab</li>
-                    <li>ReactJS</li>
                   </ul>
                 </div>
                 <div className="skills-list">
@@ -185,20 +213,21 @@ export const Resume = () => (
                   <ul>
                     <li>Git</li>
                     <li>Linux</li>
-                    <li>Docker</li>
-                    <li>Kubernetes</li>
-                    <li>Springboot</li>
-                    <li>MongoDB</li>
-                    <li>Django</li>
+                    <li>ReactJS</li>
+                    <li>NodeJS</li>
                     <li>Bootstrap</li>
-                    <li>VueJS</li>
-                    <li>jQuery</li>
+                    <li>Springboot</li>
+                    <li>Django</li>
+                    <li>MongoDB</li>
+                    <li>Docker</li>
+                    <li>Ansible</li>
+                    <li>Kubernetes</li>  
                   </ul>
                 </div>
               </SkillsRow>
             </SkillsSection>
             <div style={{ textAlign: "center" }}>
-              <DownloadButton href="/my_resume/Zinan_Mu_resume.pdf" download>
+              <DownloadButton href="/my_resume/Zinan_Mu_resume.pdf" download target="_blank">
                 Download Resume PDF
               </DownloadButton>
             </div>
