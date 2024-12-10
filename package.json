@@ -8,6 +8,7 @@
     "@babel/plugin-transform-runtime": "^7.12.1",
     "assignment5": "file:",
     "body-parser": "^1.19.0",
+    "bootstrap": "^5.3.3",
     "dotenv": "^16.4.5",
     "express": "^4.17.1",
     "express-session": "^1.17.1",
@@ -46,6 +47,7 @@
     "babel-loader": "^9.0.1",
     "chai": "^5.1.2",
     "cross-env": "^7.0.2",
+    "css-loader": "^7.1.2",
     "mocha": "^10.1.0",
     "nodemon": "^3.0.1",
     "prettier": "^3.0.3",
@@ -54,6 +56,7 @@
     "react-router": "^6.4.3",
     "react-router-dom": "^6.4.3",
     "should": "^13.2.3",
+    "style-loader": "^4.0.0",
     "superagent": "^10.1.1"
   }
 }

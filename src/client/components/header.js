@@ -1,31 +1,51 @@
 "use strict";
 
-import React, { Fragment } from "react";
-import PropTypes from "prop-types";
+import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import md5 from "md5";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-const fontColor = "#ffffff";
-const HeaderLeftBase = styled.div`
-  flex-grow: 1;
-  & > h2 {
-    color: white;
-    margin: 0.75em 0.5em 0.75em 0.5em;
-  }  
-`
-
-const HeaderBase = styled.div`
-  grid-area: hd;
-  display: flex;
+const HeaderBase = styled.header`
   background: #000;
+  color: white;
+  padding: 1em 0;
+`;
+
+const HeaderContent = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.2em;
+`;
+
+const NavLinks = styled.div`
+  display: flex;
+  gap: 1em;
+
+  a {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 `;
 
 export const Header = () => (
   <HeaderBase>
-    <HeaderLeftBase>
-      <h2>Zinan Mu</h2>
-    </HeaderLeftBase>
+    <div className="container-fluid">
+      <div className="row justify-content-center">
+        <div className="col-12 col-md-8 col-lg-6">
+          <HeaderContent>
+            <h2>Zinan Mu</h2>
+            <NavLinks>
+              <Link to="/about">About</Link>
+              <Link to="/resume">Resume</Link>
+            </NavLinks>
+          </HeaderContent>
+        </div>
+      </div>
+    </div>
   </HeaderBase>
 );
-
