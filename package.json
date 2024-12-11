@@ -1,12 +1,11 @@
 {
-  "name": "assignment5",
+  "name": "zinanmu_site",
   "version": "1.0.0",
-  "description": "Assignment 5",
+  "description": "Zinan Mu's personal website",
   "main": "/src/server/index.js",
   "type": "module",
   "dependencies": {
     "@babel/plugin-transform-runtime": "^7.12.1",
-    "assignment5": "file:",
     "body-parser": "^1.19.0",
     "bootstrap": "^5.3.3",
     "dotenv": "^16.4.5",
@@ -24,7 +23,8 @@
     "simple-env-config": "^1.0.1",
     "styled-components": "^6.1.0",
     "webpack": "^5.61.0",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "zinanmu_site": "file:"
   },
   "scripts": {
     "build": "webpack",

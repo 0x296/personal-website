@@ -2,6 +2,7 @@
 
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Styled Components
@@ -74,7 +75,7 @@ export const About = () => (
               My academic and professional interests lie in the development of web applications. I have contributed to several projects, including Architectura Sinica, News Sentiment Analyzer, and an Online Consultation Platform, gaining experience in both front-end and back-end technologies.
             </p>
             <p>
-              You can view and download my detailed resume on the Resume page.
+              You can view and download my detailed resume on the <Link to="/resume" style={{ color: "#00aaff" }}>Resume</Link> page.
             </p>
 
             <ContactSection>

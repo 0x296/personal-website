@@ -40,8 +40,8 @@ export const Header = () => (
           <HeaderContent>
             <h2>Zinan Mu</h2>
             <NavLinks>
-              <Link to="/about">About</Link>
-              <Link to="/resume">Resume</Link>
+              <Link to="/about"><strong>About</strong></Link>
+              <Link to="/resume"><strong>Resume</strong></Link>
             </NavLinks>
           </HeaderContent>
         </div>
