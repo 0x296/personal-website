@@ -149,7 +149,7 @@ export const Resume = () => (
             </SubSection>
 
             <SubSection>
-              <h2>Projects</h2>
+              <SectionTitle>Projects</SectionTitle>
 
               <h3>News Sentiment Analyzer</h3>
               <p>Mar. 2024 -- Apr. 2024</p>
@@ -221,7 +221,7 @@ export const Resume = () => (
                     <li>MongoDB</li>
                     <li>Docker</li>
                     <li>Ansible</li>
-                    <li>Kubernetes</li>  
+                    <li>Kubernetes</li>
                   </ul>
                 </div>
               </SkillsRow>
